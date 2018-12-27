@@ -4,7 +4,7 @@
 	    fetch="https://github.com/LineageOS"
 	    revision="refs/heads/cm-14.1" />
 
-    <remote name="github"
+    <remote name="github-1"
 	    fetch="https://github.com"
 	    revision="refs/heads/sailfish-14.1" />
 
@@ -12,13 +12,13 @@
 	    fetch="https://github.com/TheMuppets"
 	    revision="refs/heads/cm-14.1" />
 
-    <project path="device/motorola/harpia" name="HaliumForMSM8916/android_device_motorola_harpia" remote="github" revision="sailfish-14.1" />
-    <project path="device/motorola/msm8916-common" name="HaliumForMSM8916/android_device_motorola_msm8916-common" remote="github" revision="sailfish-14.1" />
+    <project path="device/motorola/harpia" name="HaliumForMSM8916/android_device_motorola_harpia" remote="github-1" revision="sailfish-14.1" />
+    <project path="device/motorola/msm8916-common" name="HaliumForMSM8916/android_device_motorola_msm8916-common" remote="github-1" revision="sailfish-14.1" />
     <project path="device/motorola/qcom-common" name="android_device_motorola_qcom-common" remote="los" />
 
     <project path="external/sony/boringssl-compat" name="android_external_sony_boringssl-compat" remote="los" />
 
-    <project path="kernel/motorola/msm8916" name="HaliumForMSM8916/android_kernel_motorola_msm8916" remote="github" revision="sailfish-14.1" />
+    <project path="kernel/motorola/msm8916" name="HaliumForMSM8916/android_kernel_motorola_msm8916" remote="github-1" revision="sailfish-14.1" />
 
     <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="los" />
 
